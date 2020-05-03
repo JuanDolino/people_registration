@@ -1,0 +1,14 @@
+.container > header {
+  background-color: #fff;
+  color: #6F66D8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 30px 60px;
+}
+ul > li, a {
+  list-style: none;
+  padding: 5px;
+  text-decoration: none;
+}

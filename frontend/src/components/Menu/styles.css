@@ -1,0 +1,52 @@
+.menu {
+  border: 1px solid #d9d9d9;
+  border-right: 0;
+  width: 200px;
+  position: absolute;
+  right: -200px;
+  top: 98px;
+  visibility: hidden;
+  background: #fff;
+  z-index: 1000;
+  padding: 10px;
+  transition: all 500ms;
+}
+
+.menu-icon {
+  position: absolute;
+  right: 60px;
+  width: 22px; 
+  height: 22px; 
+  opacity: 1;
+  cursor: pointer; 
+  transition: all 500ms;
+}
+
+.close-icon {
+  position: absolute;
+  right: 60px;
+  width: 22px; 
+  height: 22px;
+  visibility: hidden;
+  opacity: 0; 
+  cursor: pointer; 
+  transition: all 500ms
+}
+
+.hide-icon{
+  transform: rotate(360deg);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.show-icon {
+  transform: rotate(360deg);
+  opacity: 1;
+  visibility: visible;
+}
+
+.show-menu {
+  right: 0;
+  visibility: visible;
+}
+

@@ -1,0 +1,79 @@
+.new-people-container > div > .group-button > button {
+  font-weight: 700;
+  display: flex;
+  margin: 5px;
+  background: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.new-people-container > div > .group-button > button > a {
+  font-weight: 700;
+  color: #76787f;
+  display: flex;
+  padding: 8px;
+}
+
+.new-people-container > div > .group-button {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  margin: 5px auto;
+}
+
+.new-people-container {
+  width: 100%;
+  height: calc(100vh - 98px);
+  max-width: 1180px;
+  padding: 0 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.new-people-container > div > h1 {
+  text-align: center;
+  padding: 10px 0;
+  color: #6F66D8;
+  text-transform: uppercase;
+  font-size: 28px;
+}
+
+.new-people-container > div > .group-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new-people-container > div > .group-input > input {
+  margin: 5px;
+  border-radius: 5px;
+  padding: 8px 32px;
+  border: 1px solid #d9d9d9;
+  text-align: center;
+  transition: 0.45s;
+}
+
+.new-people-container > div > .group-input > input:focus  {
+  border: 1px solid #6F66D8;
+}
+
+.new-people-container > div > .group-input > input::placeholder {
+  color: #76787f;
+}
+
+.new-people-container > div {
+  border: 1px solid #d9d9d9;
+  width: 80%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}

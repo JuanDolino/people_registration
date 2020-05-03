@@ -1,0 +1,50 @@
+.people-container {
+  width: 100%;
+  max-width: 1180px;
+  padding: 0 30px;
+  margin: 0px auto;
+  margin-bottom: 20px;
+}
+
+.people-container > .item > li{
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  padding: 24px;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+}
+
+.people-container > .item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 24px;
+  width: 100%;
+  row-gap: 24px;
+}
+
+.people-container > .item > li > p {
+  color: #76787f;
+  line-height: 21px;
+}
+
+.people-container > .item > li > strong {
+  color: #6F66D8;
+}
+
+.people-container > .item > li > button {
+  position: absolute;
+  right: 24px;
+  top: 26px;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.people-container > h1 {
+  text-align: center;
+  color: #6F66D8;
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-size: 28px;
+}
