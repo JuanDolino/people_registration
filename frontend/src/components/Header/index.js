@@ -13,11 +13,10 @@ function Header() {
     const peopleContainer = document.querySelector(".people-container");
     
     if(peopleContainer !== undefined && peopleContainer !== null) {
-      menu.style.height = `calc(${peopleContainer.offsetHeight}px + 20px)`;
-    }
-
-    else {
-      menu.style.height = "calc(100vh - 98px)";
+      if(peopleContainer.offsetHeight > "700")
+      {
+        menu.style.height = `calc(${peopleContainer.offsetHeight}px + 20px)`;
+      }
     }
 
     menuIcon.classList.add("hide-icon");

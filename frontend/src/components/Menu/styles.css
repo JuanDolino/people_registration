@@ -3,6 +3,7 @@
   border-right: 0;
   width: 200px;
   position: absolute;
+  height: calc(100vh - 99px);
   right: -200px;
   top: 98px;
   visibility: hidden;
