@@ -13,7 +13,7 @@ function Header() {
     const peopleContainer = document.querySelector(".people-container");
     
     if(peopleContainer !== undefined && peopleContainer !== null) {
-      if(peopleContainer.offsetHeight > "700")
+      if(peopleContainer.offsetHeight >= 700)
       {
         menu.style.height = `calc(${peopleContainer.offsetHeight}px + 20px)`;
       }

@@ -15,9 +15,22 @@ function People() {
 
   async function handleDeletePeople(id) {
     try {
+      const peopleContainer = document.querySelector(".people-container");
+
+      const menu = document.querySelector(".menu");
+
       await api.delete(`people/${id}`);
 
       setPeople(people.filter(item => item.id !== id));
+
+      if (peopleContainer.offsetHeight <= 700) {
+        menu.style.height = `calc(100vh - 99px)`;
+      }
+
+      else {
+        menu.style.height = `calc(${peopleContainer.offsetHeight}px + 20px)`;
+      }
+
     } catch {
       alert("Error in delete people");
     }
